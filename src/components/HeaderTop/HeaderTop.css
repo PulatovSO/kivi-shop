@@ -1,0 +1,62 @@
+
+.header__top,
+.header__lang,
+.link-list,
+.header__logo-wrap {
+    display: flex;
+}
+
+.header__top {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-wrap {
+    align-items: center;
+}
+
+.header__slogan {
+    margin-left: 14px;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 17px;
+}
+
+.link-list__item {
+    margin: 0 15px;
+    font-weight: 100;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 18px;
+    color: #000;
+}
+
+.lang__ru,
+.lang__uz {
+    margin: 0 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4A4A4A;
+}
+
+.lang__ru {
+    padding-right: 13px;
+    border-right: 2px solid #000;
+}
+
+
+.log__item {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #4E72CA;
+}
+
+.log__in {
+    margin-right: 12px;
+    padding-right: 13px;
+    border-right: 2px solid #4E72CA;
+}
+

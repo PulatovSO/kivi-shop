@@ -1,0 +1,36 @@
+
+.footer {
+    margin-top: 23px;
+    padding: 23px 0;
+    background: #282B30;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__slogan {
+    margin-left: 14px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #98A4B7;
+}
+
+.footer__text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #98A4B7;
+}
+
+.footer__links a {
+    margin: 0 2px;
+}

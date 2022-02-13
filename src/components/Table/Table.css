@@ -1,0 +1,43 @@
+.wrapper {
+    position: relative;
+}
+
+.table__list {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    padding: 0 23px;
+    padding-left: 40px;
+    width: 1143px;
+    height: 227px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px 0px rgba(34, 60, 80, 0.2);
+    z-index: 300;
+}
+
+.table__list li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 39px;
+    letter-spacing: -6.7332e-05px;
+}
+
+.table__list li::before {
+    content: '';
+    position: relative;
+    left: -14px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #B4E2E1;
+    border: 1px solid #4A90E2;
+    border-radius: 50%;
+}
+
+.table__list-active {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

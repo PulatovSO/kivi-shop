@@ -1,0 +1,68 @@
+.carousel-bottom {
+    margin-top: 20px;
+    height: 330px;
+    position: relative;
+    background: rgba(182, 202, 251, 0.159986);
+    box-shadow: inset 0px 21px 13px rgba(182, 202, 251, 0.225402);
+    overflow: hidden;
+}
+
+.carousel__inner {
+    padding: 50px 0;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    transition: all 0.2s ease-in-out;
+}
+
+.carousel__slide {
+    position: relative;
+    margin: 0 15px;
+    Width: 359px; 
+    Height: 238px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel__slide:nth-child(1) {
+    background-image: url(../../assets/images/bg1.png);
+}
+.carousel__slide:nth-child(2) {
+    background-image: url(../../assets/images/bg2.png);
+}
+.carousel__slide:nth-child(3) {
+    background-image: url(../../assets/images/bg3.png);
+}
+.carousel__slide:nth-child(4) {
+    background-image: url(../../assets/images/bg1.png);
+}
+.carousel__slide:nth-child(5) {
+    background-image: url(../../assets/images/bg2.png);
+}
+.carousel__slide:nth-child(6) {
+    background-image: url(../../assets/images/bg3.png);
+}
+
+.carousel__image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.carousel__header {
+    margin: 24px 31px;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 26px;
+}
+
+.carousel__ads {
+    position: absolute;
+    left: 31px;
+    bottom: 41px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
